@@ -1,0 +1,22 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Dependencias
+vendor/
+node_modules/
+
+# Archivos de entorno
+.env
+.env.local
+
+# Caché y logs
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Documents
+1.  Levantamiento_Entrevista.docx
+4.1 Ante-Proyecto [16-Ago-'12].doc
+10. Tesis Smartfitness [final].docx
