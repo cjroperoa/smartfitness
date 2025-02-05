@@ -1,0 +1,80 @@
+/* Hoja de Estilos */
+/* lightbox Actualizar datos - Administrador */
+/* Cristian Ropero - 2012 */
+
+
+#formulario {
+
+	background: -moz-linear-gradient(top,  rgba(221,17,17,0.2) 0%, rgba(221,17,17,0.4) 25%, rgba(221,17,17,0.4) 50%, rgba(221,17,17,0.4) 75%, rgba(221,17,17,0.2) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(221,17,17,0.2)), color-stop(25%,rgba(221,17,17,0.4)), color-stop(50%,rgba(221,17,17,0.4)), color-stop(75%,rgba(221,17,17,0.4)), color-stop(100%,rgba(221,17,17,0.2))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(221,17,17,0.2) 0%,rgba(221,17,17,0.4) 25%,rgba(221,17,17,0.4) 50%,rgba(221,17,17,0.4) 75%,rgba(221,17,17,0.2) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(221,17,17,0.2) 0%,rgba(221,17,17,0.4) 25%,rgba(221,17,17,0.4) 50%,rgba(221,17,17,0.4) 75%,rgba(221,17,17,0.2) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(221,17,17,0.2) 0%,rgba(221,17,17,0.4) 25%,rgba(221,17,17,0.4) 50%,rgba(221,17,17,0.4) 75%,rgba(221,17,17,0.2) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(221,17,17,0.2) 0%,rgba(221,17,17,0.4) 25%,rgba(221,17,17,0.4) 50%,rgba(221,17,17,0.4) 75%,rgba(221,17,17,0.2) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33dd1111', endColorstr='#33dd1111',GradientType=0 ); /* IE6-9 */
+	position:absolute;
+	z-index: 1001;
+	top: 35%;
+	left: 40%;
+	width: 28%;
+	height: 24%;
+	border-radius: 11px;
+			
+		}
+		
+#formulario li {
+
+	list-style:none;
+	color:#FFF;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.34) 18%, rgba(255,51,51,0.15) 50%, rgba(0,0,0,0.34) 82%, rgba(0,0,0,0.45) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.45)), color-stop(18%,rgba(0,0,0,0.34)), color-stop(50%,rgba(255,51,51,0.15)), color-stop(82%,rgba(0,0,0,0.34)), color-stop(100%,rgba(0,0,0,0.45))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.34) 18%,rgba(255,51,51,0.15) 50%,rgba(0,0,0,0.34) 82%,rgba(0,0,0,0.45) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.34) 18%,rgba(255,51,51,0.15) 50%,rgba(0,0,0,0.34) 82%,rgba(0,0,0,0.45) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.34) 18%,rgba(255,51,51,0.15) 50%,rgba(0,0,0,0.34) 82%,rgba(0,0,0,0.45) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.34) 18%,rgba(255,51,51,0.15) 50%,rgba(0,0,0,0.34) 82%,rgba(0,0,0,0.45) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73000000', endColorstr='#73000000',GradientType=0 ); /* IE6-9 */
+	font-size: 20px;
+	font-family: sans-serif;
+	border-top-left-radius:11px;
+	border-top-right-radius:11px;
+	text-align:center;
+	height: 18%;
+	margin-top:1px;
+	
+		}
+			
+#contenedor{
+
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */ 
+	width:100%;
+	height:100%;
+	position:fixed;
+	opacity:5.5;
+	z-index:1000;
+	margin: 0px;
+	padding: 0px;
+			 
+		}
+		
+#formulario li img {
+
+		height: 20px;
+		width: 20px;
+		float: left;
+		margin-left: 8px;
+		margin-top: 3px;
+		
+		}
+
+#formulario form {
+
+        margin: 12%;
+        }
+                
+

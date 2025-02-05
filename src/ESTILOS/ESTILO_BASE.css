@@ -1,0 +1,298 @@
+/* CSS Base Principal SMART-FITNNES */
+/* Cristian Javier Ropero */ 
+/* SENA Octubre - 2012 */
+
+/* ------------ Inicio Reset CSS ------------------------ */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* ------------ Fin Reset CSS --------------------------- */
+
+
+/* ------------ Todo Cuerpo Pagina [Inicio] ------------------------ */
+body{
+	height: 100%; /* Altura 100% pantalla */
+	position:relative; /*Posicionamiento FIJO */	
+;
+	}
+
+.fondo{/* OK */
+		/* Fondo */
+    	position:fixed; /*Posicionamiento FIJO*/
+		bottom:0px; /*Desde abajo, colocar al 0px de la pantalla*/
+		left:0px; /*Desde izquierda, colocar al 0px de la pantalla*/
+		width:100%;
+		height:100%; 
+		z-index:-1; /* Orden de apilamiento -1 atras*/
+		}
+/* ------------ Todo Cuerpo Pagina [Final] ------------------------ */
+
+
+/* ------------ Cabecera [Inicio] ------------------------ */	  
+#tbcabecera{/* OK*/		
+		/* Div Bloque Cabecera */
+		position: fixed; /*Posicionamiento FIJO*/	
+		width: 74.2%; /* 75 Ancho Div 5% de la pantalla*/
+		height: 16%; /*Alto Div 10% de la pantalla*/		 
+		top: 2%; /*Desde arriba, colocar al 5% de la pantalla*/
+		left: 12.9%; /* 13 Desde la izquierda, colocar al 13% de la pantalla*/		
+		border:0; /* Sin Bordes */
+		
+		color:#FFFFFF; /* Color de Fuente */
+		font-weight:bold; /* Grosor de una Fuente */
+		/* Fondo Gradiente de la Tabla */  
+		background: -moz-linear-gradient(top,  rgba(153,0,0,0.9) 0%, rgba(153,0,0,0.39) 80%, rgba(153,0,0,0.26) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(153,0,0,0.9)), color-stop(80%,rgba(153,0,0,0.39)),color-stop(100%,rgba(153,0,0,0.26)));/* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(153,0,0,0.9) 0%,rgba(153,0,0,0.39) 80%,rgba(153,0,0,0.26) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(153,0,0,0.9) 0%,rgba(153,0,0,0.39) 80%,rgba(153,0,0,0.26) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(153,0,0,0.9) 0%,rgba(153,0,0,0.39) 80%,rgba(153,0,0,0.26) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(153,0,0,0.9) 0%,rgba(153,0,0,0.39) 80%,rgba(153,0,0,0.26) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6990000', endColorstr='#42990000',GradientType=0 ); /* IE6-9 */
+		}
+		
+.logo {	
+		/* Logo Smart-Fitnees */
+		position: fixed;
+		top: 3.6%;
+		left: 14%;
+		width:320px;
+		height:80px;
+		background-repeat:no-repeat;
+	   } 
+		
+#tbcabecera form {
+		position: fixed;
+		top: 7%;
+		left: 46%;		
+		}
+		
+#tbcabecera form input[type="image"]{
+		position:fixed;
+		top: 6.2%;
+		left: 71%;}
+		
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans');
+	
+.bienvenida {	
+		position:fixed;
+		top: 7%;
+		left: 48%;
+		color: #FFF;	
+		font-family:'droid sans';
+		font-size: 30px;		
+		font-weight:bold;}
+				  
+.img-usuario {		
+		position:fixed;
+		width:70px;
+		height: 70px;
+		left: 71%;
+		top: 4%;}	
+/* ------------ Cabecera [Final] ------------------------ */
+
+
+/* ------------ Menu [Inicio] ------------------------ */			
+#tbmenu {
+		
+		position: fixed; /*Posicionamiento absoluto*/	
+		width: 74%; /*Ancho Div 5% de la pantalla*/
+		height: 37px; /*Alto Div 10% de la pantalla*/		 
+		top: 19%; /*Desde arriba, colocar al 5% de la pantalla*/
+		left: 13%; /*Desde la izquierda, colocar al 13% de la pantalla*/		
+		border:0; /* Sin Bordes */
+		z-index: 2;
+		
+		/* Fondo Gradiente de la Tabla */
+		background: -moz-linear-gradient(top,  rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.34) 18%, rgba(255,51,51,0.15) 50%, rgba(0,0,0,0.34) 82%, rgba(0,0,0,0.45) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.45)), color-stop(18%,rgba(0,0,0,0.34)), color-stop(50%,rgba(255,51,51,0.15)), color-stop(82%,rgba(0,0,0,0.34)), color-stop(100%,rgba(0,0,0,0.45))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.34) 18%,rgba(255,51,51,0.15) 50%,rgba(0,0,0,0.34) 82%,rgba(0,0,0,0.45) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.34) 18%,rgba(255,51,51,0.15) 50%,rgba(0,0,0,0.34) 82%,rgba(0,0,0,0.45) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.34) 18%,rgba(255,51,51,0.15) 50%,rgba(0,0,0,0.34) 82%,rgba(0,0,0,0.45) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.34) 18%,rgba(255,51,51,0.15) 50%,rgba(0,0,0,0.34) 82%,rgba(0,0,0,0.45) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73000000', endColorstr='#73000000',GradientType=0 ); /* IE6-9 */
+					
+	 		}
+			
+#menu {
+		position:fixed;
+		margin:auto;
+		left:10%;
+		width:100%;
+	  }
+/* ------------ Menu [Final] ------------------------ */
+
+
+/* ------------ Contenido (Principal) [Inicio] ------------------------ */   
+#tbprincipal {
+		
+		/* Div Bloque Principal */
+		overflow-y: auto;
+		overflow-x: hidden;
+		position: fixed; /*Posicionamiento absoluto*/
+		width: 74%; /*Ancho Div*/
+		height: 72%; /* Alto Div*/
+		top: 19%; /*Desde arriba, colocar al 5% de la pantalla*/
+		left: 13%; /*Desde la izquierda, colocar al 13% de la pantalla*/		
+		border:0; /* Sin Bordes */
+		/* Fondo Gradiente de la Tabla */
+		background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+					
+	 		}
+			
+.swfcentro { /* OK */
+	position:absolute; /*Posicionamiento absoluto [Conrespecto al Div padre (tbprincipal)]*/
+	top: 12%; /*Desde arriba, colocar al 12% del div padre (tbprincipal)*/
+	left: 20%; /*Desde la izquierda, colocar al 20% del div padre (tbprincipal)*/
+	width: 528px;
+		}	
+
+#opcverificar{
+		position:absolute;
+		z-index: 4;
+		background:#979797;
+		width:20%;
+		height:20%;
+		border-radius:6px;
+		top:40%;
+		left:39%;}
+	
+#opcverificar p{
+		position:absolute;
+		top: 10%;
+		left: 1%;
+		font-family:'Trebuchet MS', Tahoma, Arial;
+		font-size:16px;
+		line-height:24px;
+    	text-decoration:none;
+    	text-transform:uppercase;
+    	font-weight:normal;
+		color:#fff;	
+		/*line-height:140%;*/
+		text-align:center;
+		text-shadow: black 0.1em 0.1em 0.2em;	
+		}
+		
+#opcverificar img{
+		position:absolute;
+		width:54px;
+		height:50px;}
+		
+.aceptar{
+		position:absolute;
+		top:50%;
+		left:20%;}
+.cancelar{
+		position:absolute;
+		top:50%;
+		right:40%;}
+		
+#contenedor{
+		position:fixed;
+		height:100%;		
+		opacity:9;
+		z-index:3;
+		margin: 0px;
+		padding: 0px;
+		
+	    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */ 
+		width:100%;		 
+		}
+				
+/* ------------ Contenido (Principal) [Final] ------------------------ */ 
+
+
+/* ------------ Copyrigth (Pie de Pagina) [Inicio] ------------------------ */ 		
+#tbCopyrigth {
+		
+		/* Div Bloque Copyrigth */
+		position: fixed; /*Posicionamiento absoluto*/
+		width: 74%; /*Ancho Div*/
+		height: 3%; /* Alto Div 20px*/
+		bottom: 3%; /*Desde abajo, colocar al 5% de la pantalla*/
+		left: 13%; /*Desde la izquierda, colocar al 13% de la pantalla*/		
+		border:0; /* Sin Bordes */
+		color:#FFFFFF; /*Color elemento de la Tabla */
+		font-family:sans-serif; /* Fuente en la Tabla */
+		text-align:center; /* Alineacion de texto */
+		font-size:12px; /* Tamaño de fuente */
+		 
+		/* Fondo Gradiente de la Tabla */
+		background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(153,0,0,0.49) 49%, rgba(153,0,0,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(49%,rgba(153,0,0,0.49)), color-stop(100%,rgba(153,0,0,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(153,0,0,0.49) 49%,rgba(153,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(153,0,0,0.49) 49%,rgba(153,0,0,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(153,0,0,0.49) 49%,rgba(153,0,0,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(153,0,0,0.49) 49%,rgba(153,0,0,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#990000',GradientType=0 ); /* IE6-9 */
+		}
+/* ------------ Copyrigth (Pie de Pagina) [Inicio] ------------------------ */
+			
+
+	   
+input {
+		/* Cajas de Texto */
+		font-size:14px;
+		font-family:sans-serif;
+			   }
+			   
+#texto {	
+		opacity:.9;
+		}
